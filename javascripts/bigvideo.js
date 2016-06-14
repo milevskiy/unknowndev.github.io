@@ -6,6 +6,7 @@
 
 	Dependencies: jQuery, jQuery UI (Slider), Video.js, ImagesLoaded
 */
+alert('test');
 
 (function (factory) {
 	'use strict';
