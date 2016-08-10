@@ -7,7 +7,7 @@ body {
 	font: 14px/18px Arial, sans-serif;
 	color: #000;
 	width: 100%;
-	background: #fff;
+	background: #0d0d0d;
 }
 
 strong 
@@ -89,6 +89,10 @@ footer
 /* main_page */
     /* header */
  
+.main-page
+{    
+}
+
 .header {
     position: relative;
 }
@@ -136,6 +140,11 @@ footer
 .me h1, .me h2
 {
     color: #fff;
+}
+
+.portfolio
+{
+    background-color: #fff;
 }
 
 .projects 
