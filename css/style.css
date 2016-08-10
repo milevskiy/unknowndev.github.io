@@ -127,6 +127,14 @@ footer
     padding: 0 10px 0 10px;
     color: #fff;
 }
+
+.hidden-menu
+{
+    display: none;    
+    position: absolute;
+    right: 0;
+    padding: 18px 25px;
+}
 /* header */
 
 .me {

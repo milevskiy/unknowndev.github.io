@@ -9,6 +9,32 @@
     width: 100%;
     display: block;
   }
+
+  .navigation
+  {
+  	display: none;
+  }
+
+  .hidden-menu
+  {
+  	display: block;
+  }
+
+  h1
+  {
+  	font-size: 300%;
+  }
+
+  h2
+  {
+  	font-size: 150%;
+  }
+
+  h3
+  {
+  	font-size: 120%;
+  }
+
 }
 
 /* Smartphones (portrait and landscape) ----------- */
