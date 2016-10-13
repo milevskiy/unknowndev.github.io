@@ -1,4 +1,4 @@
-/* 
+/*
 Author: Alexandr Milevskiy.
 */
 
@@ -10,36 +10,36 @@ body {
 	background: #0d0d0d;
 }
 
-strong 
+strong
 {
     font-weight: bold;
 }
 
 h1 {
     font-size: 73px;
-    line-height: 1em;    
+    line-height: 1em;
     text-transform: uppercase;
 
 }
 
 h2 {
     font-size: 36px;
-    line-height: 1em;  
+    line-height: 1em;
     text-align: center;
     text-transform: uppercase;
 }
 
 h3 {
     font-size: 24px;
-    line-height: 1em;  
+    line-height: 1em;
     text-transform: uppercase;
 }
 
 a {
-    text-decoration: none;	
+    text-decoration: none;
 }
 
-p {  
+p {
     padding: 5px 2px;
 }
 
@@ -55,6 +55,14 @@ button, button:hover, .my-works-button, .my-works-button:hover {
 	margin: 20px auto;
 	}
 
+button, .my-works-button
+{
+	-webkit-transition: background-color 0.5s, color 0.5s;
+	-moz-transition: background-color 0.5s, color 0.5s;
+	-o-transition: background-color 0.5s, color 0.5s;
+	transition: background-color 0.5s, color 0.5s;
+}
+
 button:hover, .my-works-button:hover {
     background-color: #fff;
     color: #000;
@@ -62,7 +70,7 @@ button:hover, .my-works-button:hover {
      -moz-transition: background-color 0.5s, color 0.5s;
      -o-transition: background-color 0.5s, color 0.5s;
      transition: background-color 0.5s, color 0.5s;
-	}    
+	}
 
 footer
 {
@@ -72,7 +80,7 @@ footer
 .my-works-button
 {
     width: 100px;
-}    
+}
 
 .clearfix {
     zoom: 1;
@@ -88,9 +96,9 @@ footer
 
 /* main_page */
     /* header */
- 
+
 .main-page
-{    
+{
 }
 
 .header {
@@ -126,7 +134,7 @@ footer
 }
 
 .logo {
-	background: url(../images/logo.png) no-repeat;	
+	background: url(../images/logo.png) no-repeat;
     width: 250px;
     height: 80px;
 	float: left;
@@ -140,7 +148,7 @@ footer
     clear: both;
 }
 
-.navigation a 
+.navigation a
 {
     padding: 0 10px 0 10px;
     color: #fff;
@@ -148,7 +156,7 @@ footer
 
 .hidden-menu
 {
-    display: none;    
+    display: none;
     position: absolute;
     right: 0;
     padding: 18px 25px;
@@ -182,9 +190,9 @@ footer
     height: 50px;
 }
 
-.projects 
+.projects
 {
-    text-align: center; 
+    text-align: center;
 }
 
 .projects h2
@@ -199,16 +207,16 @@ footer
     display: inline-block;
 }
 
-.item-image 
+.item-image
 {
     width: 100px;
     height: 100px;
     border-radius: 100%;
     display: block;
-    margin: 0 auto; 
+    margin: 0 auto;
 }
 
-.item-name 
+.item-name
 {
     padding-bottom: 15px;
 }
@@ -245,7 +253,7 @@ footer
 
 }
 
-.table-skills tr th 
+.table-skills tr th
 {
     display: block;
     margin-right: 20px;
@@ -273,16 +281,16 @@ footer
     margin: 25px 0 25px 0;
 }
 
-.social, .other-contacts, .contacts-description 
+.social, .other-contacts, .contacts-description
 {
     text-align: center;
 }
 
 .parallax-window {
-    min-height: 300px;
+    min-height: 600px;
     background: transparent;
 }
 
-/* 
+/*
 Author: Alexandr Milevskiy.
 */
