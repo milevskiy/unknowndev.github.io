@@ -232,7 +232,7 @@ footer
     display: block;
 }
 
-.description-skills
+.skills__description
 {
     margin-top: 25px;
 }
@@ -276,12 +276,12 @@ footer
     margin-top: 25px;
 }
 
-.social
+.contacts__social
 {
     margin: 25px 0 25px 0;
 }
 
-.social, .contacts__other, .contacts__description
+.contacts__social, .contacts__other, .contacts__description
 {
     text-align: center;
 }
