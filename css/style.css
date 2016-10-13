@@ -207,7 +207,7 @@ footer
     display: inline-block;
 }
 
-.item-image
+.item__image
 {
     width: 100px;
     height: 100px;
@@ -216,18 +216,18 @@ footer
     margin: 0 auto;
 }
 
-.item-name
+.item__name
 {
     padding-bottom: 15px;
 }
 
-.item-description
+.item__description
 {
     padding: 10px;
     text-align: center;
 }
 
-.item-description a
+.item__description a
 {
     display: block;
 }
@@ -281,7 +281,7 @@ footer
     margin: 25px 0 25px 0;
 }
 
-.social, .other-contacts, .contacts-description
+.social, .contacts__other, .contacts__description
 {
     text-align: center;
 }
