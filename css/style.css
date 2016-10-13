@@ -52,7 +52,7 @@ button, button:hover, .my-works-button, .my-works-button:hover {
     text-decoration: none;
     display: block;
     font-size: 16px;
-	margin: 20px auto;
+  	margin: 20px auto;
 	}
 
 button, .my-works-button
@@ -133,7 +133,7 @@ footer
     padding: 15px;
 }
 
-.logo {
+.header__logo {
 	background: url(../images/logo.png) no-repeat;
     width: 250px;
     height: 80px;
@@ -141,14 +141,14 @@ footer
     margin-left: 25px;
 }
 
-.navigation {
+.header__navigation {
     position: absolute;
     right: 0;
     padding: 25px;
     clear: both;
 }
 
-.navigation a
+.header__navigation a
 {
     padding: 0 10px 0 10px;
     color: #fff;
@@ -163,7 +163,7 @@ footer
 }
 /* header */
 
-.header-content {
+.header__content {
     color: #fff;
     text-align: center;
     position: absolute;
@@ -177,13 +177,13 @@ footer
 
 }
 
-.links-stores
+.links__stores
 {
     margin-top: 50px;
     text-align: center;
 }
 
-.links-stores img
+.links__stores img
 {
     padding: 0 10px;
     width: 50px;
@@ -271,7 +271,7 @@ footer
     margin-left: 10px;
 }
 
-.contacts-description
+.contacts__description
 {
     margin-top: 25px;
 }
