@@ -1,26 +1,26 @@
 function menu_click()
 	{
-		$(document).ready(function() 
+		$(document).ready(function()
 		{
-			var navigation = $(".navigation").css("display");
-			if (navigation == "none") 
+			var navigation = $(".header__navigation").css("display");
+			if (navigation == "none")
 			{
 				$(".navigation").css("display", "block");
-				$(".navigation").css("position", "static");	
+				$(".navigation").css("position", "static");
 				$(".navigation").css("text-align", "center");				
-				$(".navigation").css("background-color", "#0d0d0d");	
+				$(".navigation").css("background-color", "#0d0d0d");
 			}
 			else
 			{
 				$(".navigation").css("display", "none");
-				$(".navigation").css("position", "absolute");	
-				$(".navigation").css("text-align", "left");				
+				$(".navigation").css("position", "absolute");
+				$(".navigation").css("text-align", "left");
 				$(".navigation").css("background-color", "none");
 			}
 		});
 	}
 
-$(document).ready(function() 
+$(document).ready(function()
 {
 	function fullsizewindow()
 	{
@@ -38,14 +38,14 @@ $(document).ready(function()
 
 	skillcalculate(".csharp td", 7);
 	skillcalculate(".javascript td", 5);
-	skillcalculate(".unity td", 7);	
+	skillcalculate(".unity td", 7);
 	skillcalculate(".htmlcss td", 8);
 	skillcalculate(".aspnet td", 1);
 
 	fullsizewindow();
 	$(window).resize(function()
 	{
-		
+
 		fullsizewindow();
 	})
 
