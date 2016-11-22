@@ -27,6 +27,7 @@ h2 {
     line-height: 1em;
     text-align: center;
     text-transform: uppercase;
+		margin: 0 0 50px;
 }
 
 h3 {
@@ -36,11 +37,16 @@ h3 {
 }
 
 a {
-    text-decoration: none;
+		color: #333;
 }
 
 p {
     padding: 5px 2px;
+}
+
+table {
+		width: 100%;
+		margin: 10px 0 20px;
 }
 
 button, button:hover, .my-works-button, .my-works-button:hover {
@@ -130,14 +136,14 @@ footer
 
 .row
 {
-    padding: 15px;
+    padding: 25px;
 }
 
 .header__logo {
-	background: url(../images/logo.png) no-repeat;
+	  background: url(../images/logo.png) no-repeat;
     width: 250px;
     height: 80px;
-	float: left;
+	  float: left;
     margin-left: 25px;
 }
 
@@ -146,12 +152,14 @@ footer
     right: 0;
     padding: 25px;
     clear: both;
+		text-transform: uppercase;
 }
 
 .header__navigation a
 {
     padding: 0 10px 0 10px;
     color: #fff;
+		text-decoration: none;
 }
 
 .hidden-menu
@@ -232,45 +240,6 @@ footer
     display: block;
 }
 
-.skills__description
-{
-    margin-top: 25px;
-}
-
-.languages
-{
-    margin-top: 25px;
-}
-
-.table-skills
-{
-    margin-top: 25px;
-}
-
-.table-skills tr
-{
-    border-bottom: 2px solid #0d0d0d;
-
-}
-
-.table-skills tr th
-{
-    display: block;
-    margin-right: 20px;
-}
-
-.table-skills tr td
-{
-    width: 35px;
-    border: 5px  #fff;
-}
-
-.table-skills tr td:last-child
-{
-    display: block;
-    margin-left: 10px;
-}
-
 .contacts__description
 {
     margin-top: 25px;
@@ -284,6 +253,83 @@ footer
 .contacts__social, .contacts__other, .contacts__description
 {
     text-align: center;
+}
+
+.about-me tr td:first-child, .experience tr td:first-child
+{
+	width: 25%;
+}
+
+.experience tbody tr, .about-me tbody tr
+{
+	border-bottom: 1px solid #e8e8e8;
+}
+
+.experience tbody tr:last-child, .about-me tbody tr:last-child
+{
+	border-bottom: none;
+}
+
+.experience td, .about-me td
+{
+	padding: 10px 0 20px 0;
+}
+
+.skills thead
+{
+		text-align: left;
+		text-transform: uppercase;
+}
+
+.skills th, .skills td {
+	padding: 5px 0 5px 20px;
+	border-right: 1px solid #e8e8e8;
+	width: 25%;
+}
+
+/* У первого столбца убираем отступы*/
+.skills tr td:first-child
+{
+	padding: 5px 0 5px 0;
+}
+
+.skills th
+{
+	padding: 20px 0 20px 20px;
+}
+
+.skills tr th:first-child
+{
+	padding: 20px 0 20px 0;
+}
+
+.skills tbody tr:last-child
+{
+	border-bottom: 1px solid #e8e8e8;
+}
+
+.skills tbody:last-child tr:last-child
+{
+	border-bottom: none;
+}
+
+.skills tr:last-child td
+{
+	padding-bottom: 50px;
+}
+
+.skills th:last-child, .skills td:last-child
+{
+	  border-right-style: none;
+}
+
+.skills__soon {
+	color: #ccc;
+}
+
+.skills__remark:after
+{
+	content: '*';
 }
 
 .parallax-window {
