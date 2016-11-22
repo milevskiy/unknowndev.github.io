@@ -1,23 +1,20 @@
 function menu_click()
 	{
-		$(document).ready(function()
+		var navigation = $(".header__navigation");
+		if (navigation.css("display") == "none")
 		{
-			var navigation = $(".header__navigation");
-			if (navigation.css("display") == "none")
-			{
-				navigation.css("display", "block");
-				navigation.css("position", "static");
-				navigation.css("text-align", "center");
-				navigation.css("background-color", "#0d0d0d");
-			}
-			else
-			{
-				navigation.css("display", "none");
-				navigation.css("position", "absolute");
-				navigation.css("text-align", "left");
-				navigation.css("background-color", "none");
-			}
-		});
+			navigation.css("display", "block");
+			navigation.css("position", "static");
+			navigation.css("text-align", "center");
+			navigation.css("background-color", "#0d0d0d");
+		}
+		else
+		{
+			navigation.css("display", "none");
+			navigation.css("position", "absolute");
+			navigation.css("text-align", "left");
+			navigation.css("background-color", "none");
+		}
 	}
 
 $(document).ready(function()
