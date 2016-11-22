@@ -3,8 +3,7 @@ function menu_click()
 		$(document).ready(function()
 		{
 			var navigation = $(".header__navigation");
-			navigation.css("display");
-			if (navigation != "none")
+			if (navigation.css("display") == "none")
 			{
 				navigation.css("display", "block");
 				navigation.css("position", "static");
