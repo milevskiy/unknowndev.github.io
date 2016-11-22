@@ -4,7 +4,7 @@ function menu_click()
 		{
 			var navigation = $(".header__navigation");
 			navigation.css("display");
-			if (navigation == "none")
+			if (navigation != "none")
 			{
 				navigation.css("display", "block");
 				navigation.css("position", "static");
@@ -31,7 +31,6 @@ $(document).ready(function()
 	fullsizewindow();
 	$(window).resize(function()
 	{
-
 		fullsizewindow();
 	});
 
